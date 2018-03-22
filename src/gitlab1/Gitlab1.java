@@ -16,6 +16,7 @@ public class Gitlab1 {
      */
     public static void main(String[] args) {
        System.out.println("GIT test application");
+              System.out.println("GIT test on");
     }
     
 }
