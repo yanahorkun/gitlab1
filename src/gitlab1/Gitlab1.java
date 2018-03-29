@@ -18,6 +18,7 @@ public class Gitlab1 {
        System.out.println("GIT test application");
               System.out.println("GIT test on");
                      System.out.println("GIT test appdgd");
+                     System.out.println("GIT ignore");
     }
     
 }
