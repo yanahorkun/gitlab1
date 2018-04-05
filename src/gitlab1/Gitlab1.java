@@ -20,7 +20,7 @@ public class Gitlab1 {
                      System.out.println("GIT test appdgd");
                      System.out.println("GIT ignore");
                      getSum();
-                     getDel();
+                     getMN();
     }
     
 <<<<<<< HEAD
