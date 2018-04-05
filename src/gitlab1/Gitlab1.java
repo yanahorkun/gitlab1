@@ -21,10 +21,7 @@ public class Gitlab1 {
                      System.out.println("GIT ignore");
     }
     
-<<<<<<< HEAD
-=======
-    
->>>>>>> branchName
+
     public class SimpleCalc {
 
 private double a;
@@ -34,22 +31,19 @@ SimpleCalc(double p1,double p2) {
 this.a=p1;
 this.b=p2;
 }
-<<<<<<< HEAD
 
 public double getSum() {
 return this.a+this.b;
 }
-
-=======
-public double getSum() {
-
-return this.a+this.b;
-
-}
+   
 public double getDel() {
 
 return this.a+this.b;
     }
->>>>>>> branchName
+
+    public double getMN() {
+        
+return this.a+this.b;
+    }
 }
 }
