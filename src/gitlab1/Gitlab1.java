@@ -21,13 +21,10 @@ public class Gitlab1 {
                      System.out.println("GIT ignore");
                      getSum();
                      getDel();
+                     getDil();
     }
     
-<<<<<<< HEAD
-=======
-
->>>>>>> oneMoreCalcImroved
-    public class SimpleCalc {
+{
 
 private double a;
 private double b;
@@ -47,7 +44,7 @@ return this.a-this.b;
     }
 
 }
-=======
+
    
 public double getDel() {
 
@@ -62,6 +59,6 @@ public double getDil() {
         
 return this.a/this.b;
     }
->>>>>>> oneMoreCalcImroved
+
 }
 }
