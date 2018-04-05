@@ -45,5 +45,9 @@ return this.a+this.b;
         
 return this.a+this.b;
     }
+public double getDil() {
+        
+return this.a/this.b;
+    }
 }
 }
