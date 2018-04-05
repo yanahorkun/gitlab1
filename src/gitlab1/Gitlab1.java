@@ -19,13 +19,9 @@ public class Gitlab1 {
               System.out.println("GIT test on");
                      System.out.println("GIT test appdgd");
                      System.out.println("GIT ignore");
-                     getSum();
-<<<<<<< HEAD
-                     getMN();
-=======
-                     getDel();
-                     getDil();
->>>>>>> conflictTest
+System.out.println("a*b="+(sc.getMN()));
+System.out.println("a/b="+(sc.getDil()));
+System.out.println("a/b="+(sc.getDil()));
     }
     
 {
@@ -41,21 +37,12 @@ this.b=p2;
 public double getSum() {
 return this.a+this.b;
 }
-<<<<<<< HEAD
 public double getDel() {
 
 return this.a-this.b;
     }
 
-}
-
-   
-public double getDel() {
-
-return this.a+this.b;
-    }
-
-    public double getMN() {
+ public double getMN() {
         
 return this.a+this.b;
     }
@@ -65,4 +52,5 @@ return this.a/this.b;
     }
 
 }
-}
+
+
