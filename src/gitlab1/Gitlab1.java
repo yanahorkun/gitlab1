@@ -23,6 +23,10 @@ public class Gitlab1 {
                      getDel();
     }
     
+<<<<<<< HEAD
+=======
+
+>>>>>>> oneMoreCalcImroved
     public class SimpleCalc {
 
 private double a;
@@ -36,10 +40,28 @@ this.b=p2;
 public double getSum() {
 return this.a+this.b;
 }
+<<<<<<< HEAD
 public double getDel() {
 
 return this.a-this.b;
     }
 
+}
+=======
+   
+public double getDel() {
+
+return this.a+this.b;
+    }
+
+    public double getMN() {
+        
+return this.a+this.b;
+    }
+public double getDil() {
+        
+return this.a/this.b;
+    }
+>>>>>>> oneMoreCalcImroved
 }
 }
