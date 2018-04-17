@@ -17,6 +17,7 @@ public class Gitlab1 {
     public static void main(String[] args) {
        System.out.println("GIT test application");
               System.out.println("GIT test on");
+              System.out.println("GIT test terfjfjfj");
                System.out.println("GIT test terf");
                      System.out.println("GIT test appdgd");
                      System.out.println("GIT ignore");
