@@ -23,7 +23,7 @@ public class Gitlab1 {
                      SimpleCalc One = new SimpleCalc(10.2,2.4);
 System.out.println("a*b="+(One.getMN()));
 //One.getMN();
-System.out.println("a/b="+(One.getDil()));
+System.out.println("a/bbbb="+(One.getDil()));
 //One.getDil();
 System.out.println("a+b="+(One.getsum()));
 System.out.println("a-b="+(One.getrisn()));
