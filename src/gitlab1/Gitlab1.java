@@ -19,38 +19,13 @@ public class Gitlab1 {
               System.out.println("GIT test on");
                      System.out.println("GIT test appdgd");
                      System.out.println("GIT ignore");
-System.out.println("a*b="+(sc.getMN()));
-System.out.println("a/b="+(sc.getDil()));
-System.out.println("a/b="+(sc.getDil()));
+                     SimpleCalc One = new SimpleCalc(10.2,2.4);
+System.out.println("a*b="+(One.getMN()));
+//One.getMN();
+System.out.println("a/b="+(One.getDil()));
+//One.getDil();
+
     }
-    
-{
-
-private double a;
-private double b;
-
-SimpleCalc(double p1,double p2) {
-this.a=p1;
-this.b=p2;
-}
-
-public double getSum() {
-return this.a+this.b;
-}
-public double getDel() {
-
-return this.a-this.b;
-    }
-
- public double getMN() {
-        
-return this.a+this.b;
-    }
-public double getDil() {
-        
-return this.a/this.b;
-    }
-
 }
 
 
