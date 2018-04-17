@@ -27,7 +27,7 @@ System.out.println("a*b="+(One.getMN()));
 System.out.println("a/b="+(One.getDil()));
 //One.getDil();
 System.out.println("a+b="+(One.getsum()));
-System.out.println("a-b="+(One.getrisn()));
+System.out.println("a-bbbb="+(One.getrisn()));
 System.out.println("a-b+++="+(One.getrisn()));
 
     }
