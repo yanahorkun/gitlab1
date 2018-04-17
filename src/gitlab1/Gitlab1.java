@@ -18,6 +18,7 @@ public class Gitlab1 {
        System.out.println("GIT test application");
               System.out.println("GIT test on");
                System.out.println("GIT test terf");
+               System.out.println("GIT test jfkjdkj");
                      System.out.println("GIT test appdgd");
                      System.out.println("GIT ignore");
                      SimpleCalc One = new SimpleCalc(10.2,2.4);
@@ -27,6 +28,7 @@ System.out.println("a/b="+(One.getDil()));
 //One.getDil();
 System.out.println("a+b="+(One.getsum()));
 System.out.println("a-b="+(One.getrisn()));
+System.out.println("a-b+++="+(One.getrisn()));
 
     }
 }
