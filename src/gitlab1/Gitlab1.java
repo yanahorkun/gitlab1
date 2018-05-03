@@ -24,6 +24,8 @@ public class Gitlab1 {
                      System.out.println("GIT ignore");
                      SimpleCalc One = new SimpleCalc(10.2,2.4);
 System.out.println("a*b="+(One.getMN()));
+System.out.println("a*b="+(One.getMN()));
+
 //One.getMN();
 System.out.println("a/bbbb="+(One.getDil()));
 System.out.println("a/bbbb="+(One.getDil()));
