@@ -26,23 +26,10 @@ public class Gitlab1 {
 System.out.println("a*b="+(One.getMN()));
 //One.getMN();
 System.out.println("a/bbbb="+(One.getDil()));
+System.out.println("a/bbbb="+(One.getDil()));
 //One.getDil();
 System.out.println("a+b="+(One.getsum()));
 System.out.println("a-bbbb="+(One.getrisn()));
-System.out.println("a-b+++="+(One.getrisn()));
-
-System.out.println("a-b+++="+(One.getrisn()));
-System.out.println("a-b+++="+(One.getrisn()));
-System.out.println("a-b+++="+(One.getrisn()));
-
-System.out.println("a-b+++="+(One.getrisn()));
-System.out.println("a-b+++="+(One.getrisn()));
-
-
-System.out.println("a-b+++="+(One.getrisn()));
-System.out.println("a-b+++="+(One.getrisn()));
-System.out.println("a-b+++="+(One.getrisn()));
-
 System.out.println("a-b+++="+(One.getrisn()));
 System.out.println("a-b+++="+(One.getrisn()));
 
