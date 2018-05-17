@@ -15,16 +15,21 @@ import static org.junit.Assert.*;
  * @author Yana Horkun
  */
 public class SimpleCalcTest {
-    
+    double p1=4;
+    double p2=5;
+    SimpleCalc sc = new SimpleCalc(p1,p2);
     public SimpleCalcTest() {
     }
     
     @BeforeClass
     public static void setUpClass() {
+        System.out.println("BeforeClass");
+        
     }
     
     @AfterClass
     public static void tearDownClass() {
+        System.out.println("AfterClass");
     }
 
     /**
@@ -33,12 +38,8 @@ public class SimpleCalcTest {
     @Test
     public void testGetMN() {
         System.out.println("getMN");
-        SimpleCalc instance = null;
-        double expResult = 0.0;
-        double result = instance.getMN();
-        assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertEquals(20, sc.getMN(), 0.0);
+       
     }
 
     /**
@@ -47,12 +48,8 @@ public class SimpleCalcTest {
     @Test
     public void testGetDil() {
         System.out.println("getDil");
-        SimpleCalc instance = null;
-        double expResult = 0.0;
-        double result = instance.getDil();
-        assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertEquals(0.8, sc.getDil(), 0.0);
+
     }
 
     /**
@@ -61,12 +58,8 @@ public class SimpleCalcTest {
     @Test
     public void testGetsum() {
         System.out.println("getsum");
-        SimpleCalc instance = null;
-        double expResult = 0.0;
-        double result = instance.getsum();
-        assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertEquals(9, sc.getsum(), 0.0);
+       
     }
 
     /**
@@ -75,12 +68,7 @@ public class SimpleCalcTest {
     @Test
     public void testGetrisn() {
         System.out.println("getrisn");
-        SimpleCalc instance = null;
-        double expResult = 0.0;
-        double result = instance.getrisn();
-        assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertEquals(-1, sc.getrisn(), 0.0);
     }
     
 }
