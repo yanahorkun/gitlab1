@@ -32,4 +32,5 @@ public class SimpleCalc {
     public double getrisn (){
        return this.a-this.b;
     }
+    
 }

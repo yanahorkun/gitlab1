@@ -70,5 +70,4 @@ public class SimpleCalcTest {
         System.out.println("getrisn");
         assertEquals(-1, sc.getrisn(), 0.0);
     }
-    
-}
+    }
